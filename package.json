@@ -1,0 +1,31 @@
+{
+    "author": "Mark Wolfe <mark@wolfe.id.au>",
+    "name": "radiusjs",
+    "homepage": "http://radiusjs.org",
+    "description": "RADIUS server",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/wolfeidau/node-radiusjs.git"
+    },
+    "main": "lib/radius",
+    "engines": {
+        "node": ">=0.6"
+    },
+    "dependencies": {
+        "asn1": "0.1.11",
+        "buffertools": "1.0.6",
+        "dtrace-provider": "0.0.3",
+        "nopt": "1.0.10",
+        "sprintf": "0.1.1"
+    },
+    "devDependencies": {
+        "mocha": "*"
+        , "should": "*"
+        , "colors": "*"
+        , "benchmark": "0.2.2"
+    },
+    "scripts": {
+        "test": "make test"
+    }
+}
