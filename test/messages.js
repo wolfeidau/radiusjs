@@ -6,9 +6,6 @@
 
 var AccessRequest = require('../lib/messages/access_request');
 
-
-
-
 describe('AccessRequest', function(){
     describe('Parse', function(){
         it('should parse a valid request without error', function(){
